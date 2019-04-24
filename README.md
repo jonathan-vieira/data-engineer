@@ -31,6 +31,12 @@ variable "access_token_secret" {
 }
 ```
 
+criar o bucket para armazenar o terraform state 
+
+```
+aws s3 mb s3://data-engineer-state --region us-east-1
+```
+
 deploy do terraform
 
 ```
