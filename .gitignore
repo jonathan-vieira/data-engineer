@@ -1,0 +1,4 @@
+twitterCreds.py
+*.terraform
+*.plan
+*.tfstate
